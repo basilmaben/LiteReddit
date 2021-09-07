@@ -1,0 +1,26 @@
+{
+  "name": "LiteReddit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "tsc -w",
+    "start": "ts-node src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/basilmaben/LiteReddit.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/basilmaben/LiteReddit/issues"
+  },
+  "homepage": "https://github.com/basilmaben/LiteReddit#readme",
+  "devDependencies": {
+    "@types/node": "^16.7.13",
+    "ts-node": "^10.2.1",
+    "typescript": "^4.4.2"
+  }
+}
