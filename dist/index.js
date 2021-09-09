@@ -9,8 +9,9 @@ const mikro_orm_config_1 = __importDefault(require("./mikro-orm.config"));
 const main = async () => {
     const orm = await core_1.MikroORM.init(mikro_orm_config_1.default);
     const post = orm.em.create(Post_1.Post, { title: 'my first post' });
-    console.log();
     await orm.em.persistAndFlush(post);
 };
-main();
+main().catch((err) => {
+    console.log(err);
+});
 //# sourceMappingURL=index.js.map
